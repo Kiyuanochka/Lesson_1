@@ -1,10 +1,10 @@
 public class HomeWorkApp {
 
     public static void main(String[] args) {
-        //printThreeWords();
-        //checkSumSign();
+        printThreeWords();
+        checkSumSign();
         printColor();
-        //compareNumbers();
+        compareNumbers();
     }
 
     public static void printThreeWords() {
@@ -13,7 +13,7 @@ public class HomeWorkApp {
         System.out.println("Apple");
     }
 
-    /*public static void checkSumSign() {
+    public static void checkSumSign() {
 
         int a = 5;
         int b = 8;
@@ -24,7 +24,7 @@ public class HomeWorkApp {
          else {
             System.out.println("Сумма отрицательная");
         }
-    }*/
+    }
 
     public static void printColor() {
         int value = 50;
