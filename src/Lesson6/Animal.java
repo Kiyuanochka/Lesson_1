@@ -2,9 +2,13 @@ package Lesson6;
 
 public class Animal {
 
+
+
+
     private String name;
     private int age;
     private String color;
+
     public static int count = 0;
 
     public String getName() {
@@ -37,8 +41,9 @@ public class Animal {
         this.color = color;
     }
 
-    public static void run() {
-        System.out.println("runs ");
+
+    void run(int Length) {
+        System.out.println(name + " runs " + Length + "m");
     }
 
     public void print() {

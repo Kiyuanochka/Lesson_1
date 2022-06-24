@@ -1,4 +1,4 @@
-package Lesson7;
+/*package Lesson7;
 
 public class Main {
 
@@ -23,4 +23,4 @@ public class Main {
         }
     }
 }
-
+*/
