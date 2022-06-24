@@ -1,5 +1,6 @@
 package Lesson6;
 
 public interface Swimming {
-    void swim();
+    void swim(int distance)
+            ;
 }

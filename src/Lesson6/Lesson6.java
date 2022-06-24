@@ -15,11 +15,19 @@ public class Lesson6 {
         Dog[] dogs = {dog1, dog2, dog3};
 
     for (int i = 0; i < cats.length; i++){
-        cats[i].run(random.nextInt(201));}
+        cats[i].run(random.nextInt(201));
+        //cats[i].swim(0);
+        Cat.count++;}
+        System.out.println("Cats don't swim");
+
     for (int i = 0; i < dogs.length; i++){
         dogs[i].run(random.nextInt(501));
-
+        dogs[i].swim(random.nextInt(11));
+        Dog.count++;
         }
+        System.out.println((Cat.count + Dog.count) + " Animals");
+
+
 
     }
 }
