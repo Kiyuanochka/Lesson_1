@@ -4,8 +4,11 @@ public class Cat {
     private String name;
     int appetite;
     int count;
+    boolean full(){
+        return false;
+    };
 
-    public Cat(String name, int appetite) {
+       public Cat(String name, int appetite, boolean full) {
         this.name = name;
         this.appetite = appetite;
     }
@@ -16,6 +19,6 @@ public class Cat {
     }
 
     public void print(){
-        System.out.println("[ " + name + " eats]");
+        System.out.println("[ " + name + " has eaten and full]");
     }
 }
